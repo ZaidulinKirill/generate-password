@@ -32,7 +32,7 @@ var lowercase = 'abcdefghijklmnopqrstuvwxyz',
 	uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 	numbers = '0123456789',
 	symbols = '!@#$%^&*()+_-=}{[]|:;"/?.><,`~',
-	similarCharacters = /[ilLI|`oO0]/g,
+	similarCharacters = /[1ilLI|`oO0]/g,
 	strictRules = [
 		{ name: 'lowercase', rule: /[a-z]/ },
 		{ name: 'uppercase', rule: /[A-Z]/ },
